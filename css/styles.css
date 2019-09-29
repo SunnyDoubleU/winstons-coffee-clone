@@ -1,0 +1,33 @@
+html,
+body {
+  font-family: Helvetica;
+}
+
+#navigation {
+  position: fixed;
+  background: rbg(0 0 0 0);
+  width: 100%;
+}
+
+.navRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#navigation li a {
+  color: #fff5cf;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#navigation img {
+  width: 2vw;
+}
+
+#top {
+  background-image: url("/images/winstons-shop.jpeg");
+  height: 20vh;
+}
